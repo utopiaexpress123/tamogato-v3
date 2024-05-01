@@ -61,7 +61,7 @@ export default function Home() {
                                 <AvatarFallback>CN</AvatarFallback>
                               </Avatar>
                             </TableCell>
-                            <TableCell className="text-left">Magyar Állatartók Szövetsége</TableCell>
+                            <TableCell className="text-left">Magyar Állatartók Nemzetközi Szövetsége</TableCell>
                             <TableCell className="text-right w-24">10000 huf</TableCell>
                           </TableRow>
                         </TableBody>
