@@ -1,4 +1,4 @@
-// File: D:\HeadShots\Tamogato\my-app\app\layout.tsx
+// File: D:\HeadShots\tamogato-v3\tamogato-v3\app\layout.tsx
 import * as entry from '../../../app/layout.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
