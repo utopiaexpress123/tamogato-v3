@@ -37,9 +37,9 @@ export default function Home() {
         <Card className="bg-stone-100 shadow-2xl rounded-2xl">
               <CardHeader>
                 <CardDescription className="text-sm text-stone-500">Havi támogatói kereted</CardDescription>
-                <CardTitle className="text-5xl font-extrabold pb-2">10.000<span className="text-xl ml-1 font-normal text-stone-300">Huf</span></CardTitle>
+                <CardTitle className="text-5xl font-extrabold pb-2">10.000<span className="text-xl ml-1 font-normal text-stone-400">Huf</span></CardTitle>
                   <Slider defaultValue={[25]} max={100} step={4} />
-                <div className="pt-2 flex justify-between text-xs text-center text-stone-300">
+                <div className="pt-2 flex justify-between text-xs text-center text-stone-400">
                   <div className="">500d0</div>
                   <div className="">10000</div>
                   <div className="">15000</div>
