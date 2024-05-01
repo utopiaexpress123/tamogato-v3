@@ -57,7 +57,7 @@ export default function Home() {
                           <TableRow>
                             <TableCell className="font-medium">
                               <Avatar>
-                                <AvatarImage src="https://github.com/shadcn.png" />
+                                <AvatarImage src="https://i.pinimg.com/564x/e3/cb/4b/e3cb4b86a3c2c182bbcb8c98be68f092.jpg" />
                                 <AvatarFallback>CN</AvatarFallback>
                               </Avatar>
                             </TableCell>
