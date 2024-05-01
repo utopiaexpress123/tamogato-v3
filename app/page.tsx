@@ -61,8 +61,8 @@ export default function Home() {
                                 <AvatarFallback>CN</AvatarFallback>
                               </Avatar>
                             </TableCell>
-                            <TableCell className="text-left">Webfejlesztők Pestszentlőrinci Elmeotthona</TableCell>
-                            <TableCell className="text-right w-24">5000 huf</TableCell>
+                            <TableCell className="text-left">Magyar Állatartók Szövetsége</TableCell>
+                            <TableCell className="text-right w-24">10000 huf</TableCell>
                           </TableRow>
                         </TableBody>
                       </Table>
@@ -70,8 +70,8 @@ export default function Home() {
                     <AccordionContent>
 
                       <ToggleGroup type="single" className="border shadow-lg bg-stone-800 p-2 rounded-lg text-stone-300 mt-2">
-                        <ToggleGroupItem value="a" data-state="on">5000 <span className="text-xs ml-1 text-stone-600">Huf</span></ToggleGroupItem>
-                        <ToggleGroupItem value="b">10000 <span className="text-xs ml-1 text-stone-600">Huf</span></ToggleGroupItem>
+                        <ToggleGroupItem value="a">5000 <span className="text-xs ml-1 text-stone-600">Huf</span></ToggleGroupItem>
+                        <ToggleGroupItem value="b" data-state="on">10000 <span className="text-xs ml-1 text-stone-600">Huf</span></ToggleGroupItem>
                         <ToggleGroupItem value="c">15000 <span className="text-xs ml-1 text-stone-600">Huf</span></ToggleGroupItem>
                         <ToggleGroupItem value="d">20000 <span className="text-xs ml-1 text-stone-600">Huf</span></ToggleGroupItem>
                         <ToggleGroupItem value="e">25000 <span className="text-xs ml-1 text-stone-600">Huf</span></ToggleGroupItem>
