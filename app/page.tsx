@@ -274,11 +274,24 @@ export default function Home() {
                       </Accordion>
 
                     </CardContent>
-                    <CardFooter>
-                      <div className="text-center mx-auto w-14 h-14 rounded-full shadow-lg "><PlusIcon/></div>
-                    </CardFooter>
-
             </Card> 
+            
+            <Dialog>
+              <DialogTrigger className="w-full text-center mx-auto">
+                <div className="mt-6 text-center mx-auto w-14 h-14 rounded-full shadow-lg "><PlusIcon/></div>
+              </DialogTrigger>
+              <DialogContent>
+                <DialogHeader>
+                  <DialogDescription>
+                    <ScrollArea className="h-[390px] w-[420px] rounded-md border p-4">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis enim arcu, facilisis in nulla non, molestie pellentesque sem. Sed tincidunt turpis in egestas maximus. Curabitur tempor erat nec arcu aliquam ornare. Vestibulum quis magna ullamcorper, iaculis enim ut, porttitor est. Integer euismod ac lorem at aliquam. Sed volutpat dui vel nisl finibus congue. Sed quis condimentum ex, a efficitur erat. Morbi massa nisi, consequat a velit facilisis, tempor gravida arcu. Nunc maximus ipsum a mauris consequat bibendum. Nunc tellus lorem, lobortis in ultricies nec, volutpat at justo.
+                    Duis ut eros quis orci gravida consequat. Ut sit amet nibh quis ex scelerisque aliquam a vitae enim. Nunc malesuada mattis risus, in sagittis arcu ultricies in. Ut ut sapien risus. Praesent molestie elit sem, nec feugiat risus viverra sed. Phasellus commodo euismod ipsum, sed consequat diam elementum sit amet. Nullam sagittis, ex ac rutrum sollicitudin, magna nisi interdum nunc, eget placerat massa leo eu lorem. Curabitur scelerisque scelerisque quam at tempor. Morbi a diam ligula. In non vulputate velit. Aliquam ac dapibus neque. Curabitur hendrerit euismod erat sed rhoncus.
+                    </ScrollArea>
+                  </DialogDescription>
+                </DialogHeader>
+              </DialogContent>
+            </Dialog>
+
           </TabsContent>
 
         </Tabs>
